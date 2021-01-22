@@ -15,6 +15,10 @@ pip install Lavalink
 pip install aiohttp
 `
 
+# To Compile
+`python src/bot.py`
+
+
 ## Commands 
 
 ### Commands found: 27

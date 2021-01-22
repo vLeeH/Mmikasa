@@ -15,7 +15,7 @@ pip install Lavalink
 pip install aiohttp
 `
 
-# To Compile
+## To Compile
 `python src/bot.py`
 
 

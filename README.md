@@ -16,7 +16,7 @@ pip install aiohttp
 `
 
 ## To Compile
-`python src/bot.py`
+`python src/bot.py` `java -jar Lavalink.jar`
 
 
 ## Commands 

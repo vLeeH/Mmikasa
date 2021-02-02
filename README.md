@@ -28,7 +28,7 @@ Run the Lavalink -
 java -jar Lavalink.jar
 ```
 
-**Note** need to create a file `token.txt` and put the discord bot token.
+**Note** need to create a file `token.txt` and put the discord bot token there.
 ## Commands 
 
 ### Commands found: 27

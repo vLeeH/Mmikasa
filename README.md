@@ -3,23 +3,32 @@
 Source code -> <a href="https://github.com/vLeeH/mmikasa-bot/blob/main/src/bot.py">Bot.py</a> and <a href="https://github.com/vLeeH/mmikasa-bot/blob/main/src/cogs/Music.py">MusicCogs</a>
 
 ## Libraries
-`
+```
 pip install discord.py
-`
-`
+```
+```
 py -3.7 -m pip install wavelink
-`
-`
+```
+```
 pip install Lavalink
-`
-`
+```
+```
 pip install aiohttp
-`
+```
 
-## To Compile
-`python src/bot.py` `java -jar Lavalink.jar`
+## To Compile 
 
+To see the bot working - 
+```
+python src/bot.py
+```
 
+Run the Lavalink - 
+```
+java -jar Lavalink.jar
+```
+
+**Note** need to create a file `token.txt` and put the discord bot token.
 ## Commands 
 
 ### Commands found: 27

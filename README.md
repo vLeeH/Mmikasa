@@ -1,6 +1,6 @@
 # This is my main Discord Bot - (Mikasa V3.0 - MMikasa) 
 - This is my main Discord Bot with musics commands and administration commands.
-Source code -> <a >Bot.py</a> and <a>MusicCogs</a>
+Source code -> <a href="https://github.com/vLeeH/mmikasa-bot/blob/main/src/bot.py">Bot.py</a> and <a href="https://github.com/vLeeH/mmikasa-bot/blob/main/src/cogs/Music.py">MusicCogs</a>
 
 ## Libraries
 `

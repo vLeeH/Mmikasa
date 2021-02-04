@@ -59,9 +59,6 @@ java -jar Lavalink.jar
 - ,queue [queue]
 - ,disconnect [disconnect from the call]
 
-## Author 
-- <a href="https://github.com/vLeeH">Lee</a>
-
 ### Languages :wrench:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png" width="60px" height="60px">

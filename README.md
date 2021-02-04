@@ -17,15 +17,13 @@ pip install aiohttp
 ```
 
 ## To Compile 
-
-To see the bot working - 
-```
-python src/bot.py
-```
-
 Run the Lavalink - 
 ```
 java -jar Lavalink.jar
+```
+To see the bot working - 
+```
+python src/bot.py
 ```
 
 **Note** need to create a file `token.txt` and put the discord bot token there.

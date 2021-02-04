@@ -3,6 +3,7 @@
 Source code -> <a href="https://github.com/vLeeH/mmikasa-bot/blob/main/src/bot.py">Bot.py</a> and <a href="https://github.com/vLeeH/mmikasa-bot/blob/main/src/cogs/Music.py">MusicCogs</a>
 
 ## Libraries
+DOWNLOAD **Java 11** - https://jdk.java.net/java-se-ri/11
 ```
 pip install discord.py
 ```

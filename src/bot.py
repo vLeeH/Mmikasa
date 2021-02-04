@@ -1,3 +1,26 @@
+'''
+MIT License
+
+Copyright (c) 2021 Lee
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+'''
 import os
 import discord
 from discord.ext import commands
@@ -13,7 +36,7 @@ bot = commands.Bot(command_prefix=',', intents=intents)
 async def on_ready(): 
     bot.load_extension('cogs.Music')
     bot.load_extension('cogs.ImagesCog')
-    await bot.change_presence(activity=discord.Game('sayhelp'))
+    await bot.change_presence(activity=discord.Game('sayhelp | On my feet 🤖'))
 
     print(f'{bot.user} has logged in.')
 
@@ -62,7 +85,7 @@ async def kick_error(ctx, error):
 #ban
 @bot.command(name='ban', pass_context = True, aliases=['banuser'])
 @commands.has_permissions(ban_members=True)
-async def ban(context, member: discord.Member, *, reason=None):
+async def ban(context, member: discord.Member, *, reason=None): 
     channel = bot.get_channel(792824130449047552) #chat of ban/kick/mute
 
     await member.ban(reason=reason)
@@ -221,7 +244,7 @@ reaction_message_id = ""
 async def reaction_create_post(ctx):
 
     embed = discord.Embed(title="Create reaction Post", color=0x8cc542)
-    embed.set_author(name="Jax")
+    embed.set_author(name="Mikasa")
     embed.add_field(name="Set Title", value=""" ,reaction_set_title \"New title\" """)     
     embed.add_field(name="Add Role", value=""" ,reaction_add_role @Role EMOJI_HERE """, inline=False)   
     embed.add_field(name="Remove Role", value=""" ,reaction_remove_role @Role""",inline=False)   
@@ -298,7 +321,7 @@ async def reaction_send_post(ctx):
         description += "`@" + role + "` - " + reactions[role] + "\n"
 
     embed = discord.Embed(title=reaction_title, description=description, color=0x8cc542)
-    embed.set_author(name="Jax") #must use name = "" to set a author
+    embed.set_author(name="MMikasa") #must use name = "" to set a author
     message = await ctx.send(embed=embed)
 
     global reaction_message_id 
@@ -450,8 +473,8 @@ async def on_message(message):
 
         await msg.add_reaction(emoji)
 
-    await bot.process_commands(message)  
-
+    await bot.process_commands(message)
+    
 
 #error
 @bot.event
@@ -459,7 +482,6 @@ async def on_command_error(ctx, error):
     if isinstance(error, commands.CommandNotFound): 
         await ctx.send('_Invalid command_. Use **sayhelp** to learn about the commands.')
         await ctx.message.delete()
-
 
 with open("src/token", "rt+") as f:
     bot.run(str(f.read()))

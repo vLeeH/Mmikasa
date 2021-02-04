@@ -1,20 +1,34 @@
 # This is my main Discord Bot - (Mikasa V3.0 - MMikasa) 
-- This is my main Discord Bot with musics commands and administration commands.
+- This is my main Discord Bot with musics commands and administration commands.<br>
+Source code -> <a href="https://github.com/vLeeH/mmikasa-bot/blob/main/src/bot.py">Bot.py</a> and <a href="https://github.com/vLeeH/mmikasa-bot/blob/main/src/cogs/Music.py">MusicCogs</a>
 
 ## Libraries
-`
+```
 pip install discord.py
-`
-`
+```
+```
 py -3.7 -m pip install wavelink
-`
-`
+```
+```
 pip install Lavalink
-`
-`
+```
+```
 pip install aiohttp
-`
+```
 
+## To Compile 
+
+To see the bot working - 
+```
+python src/bot.py
+```
+
+Run the Lavalink - 
+```
+java -jar Lavalink.jar
+```
+
+**Note** need to create a file `token.txt` and put the discord bot token there.
 ## Commands 
 
 ### Commands found: 27
@@ -44,6 +58,10 @@ pip install aiohttp
 - ,now_playing [see which music is playing]
 - ,queue [queue]
 - ,disconnect [disconnect from the call]
+
+## Author 
+- <a href="https://github.com/vLeeH">Lee</a>
+
 ### Languages :wrench:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png" width="60px" height="60px">

@@ -58,7 +58,3 @@ java -jar Lavalink.jar
 - ,now_playing [see which music is playing]
 - ,queue [queue]
 - ,disconnect [disconnect from the call]
-
-### Languages :wrench:
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png" width="60px" height="60px">

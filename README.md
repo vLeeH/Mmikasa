@@ -25,8 +25,13 @@ To see the bot working -
 ```
 python src/bot.py
 ```
+## Errors 
+- If the bot is not working 
+>  create a file `token.txt` and put the discord bot token there.
 
-**Note** need to create a file `token.txt` and put the discord bot token there.
+- Lavalink is not working 
+> install Java 11 - https://jdk.java.net/java-se-ri/11
+
 ## Commands 
 
 ### Commands found: 27

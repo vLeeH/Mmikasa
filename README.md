@@ -3,6 +3,7 @@
 
 ## Libraries
 DOWNLOAD **Java 11** - https://jdk.java.net/java-se-ri/11
+DOWNLOAD **Python 3.8** - https://www.python.org/downloads/
 ```
 pip install discord.py
 ```

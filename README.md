@@ -71,3 +71,6 @@ Lavalink is not working
 - ,data [see the date]
 - ,cookie [just a fun command]
 - ,cat [send random images of cats]
+
+## Why? 
+I did this project to improve my knownlodge in Python and bot development

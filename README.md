@@ -1,7 +1,7 @@
 # This is my main Discord Bot - (Mikasa V3.0 - MMikasa) 
 - This is my main Discord Bot with musics commands and moderation commands.<br>
 
-## Libraries
+## Installation
 DOWNLOAD **Java 11** - https://jdk.java.net/java-se-ri/11 <br>
 DOWNLOAD **Python 3.8** - https://www.python.org/downloads/
 ```
@@ -17,7 +17,7 @@ pip install Lavalink
 pip install aiohttp
 ```
 
-## To Compile 
+## Compile 
 Run the Lavalink - 
 ```
 java -jar Lavalink.jar

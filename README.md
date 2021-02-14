@@ -2,7 +2,7 @@
 - This is my main Discord Bot with musics commands and moderation commands.<br>
 
 ## Libraries
-DOWNLOAD **Java 11** - https://jdk.java.net/java-se-ri/11
+DOWNLOAD **Java 11** - https://jdk.java.net/java-se-ri/11 <br>
 DOWNLOAD **Python 3.8** - https://www.python.org/downloads/
 ```
 pip install discord.py
@@ -29,7 +29,7 @@ python src/bot.py
 ## Errors 
 If the bot is not working 
 >  create a file `token.txt` and put the discord bot token there.
----
+
 Lavalink is not working 
 > install Java 11 - https://jdk.java.net/java-se-ri/11
 

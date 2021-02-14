@@ -35,8 +35,12 @@ Lavalink is not working
 ## Commands 
 
 ### Commands found: 27
-- sayhelp [see the commands]
-- ,modhelp [see the mod commands]
+### Help
+- ,help [see the commands]
+- ,helpmod [see the mod commands]
+- ,helpmusic [see the music commands ]
+
+## Moderation commands
 - ,ban [ban someone]
 - ,unban [unban someone]
 - ,kick [kick someone]
@@ -49,11 +53,15 @@ Lavalink is not working
 - ,reaction_add_role @Role EMOJI_HERE [add role for post]
 - ,reaction_remove_role @Role [remove the role]
 - ,reaction_send_post [send the post]
+
+## Fun commands
 - ,avatar [get an avatar member]
 - ,ping [see your ping]
 - ,data [see the date]
 - ,cookie [just a fun command]
 - ,cat [send random images of cats]
+
+## Music commands
 - ,play [play the music]
 - ,pause [pause the music]
 - ,resume [return the music]

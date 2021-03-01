@@ -35,6 +35,7 @@ Lavalink is not working
 
 ## Commands 
 Commands of my discord bot.
+
 **Commands found: 27**
 ## 🤔 Help (3)
 ```

@@ -34,16 +34,16 @@ Lavalink is not working
 > install Java 11 - https://jdk.java.net/java-se-ri/11 and config the environment variable.
 
 ## Commands 
-
-### Commands found: 27
-### 🤔 Help (3)
+Commands of my discord bot.
+**Commands found: 27**
+## 🤔 Help (3)
 ```
 - ,help [see the commands]
 - ,helpmod [see the mod commands]
 - ,helpmusic [see the music commands ]
 ```
 
-### 📜 Moderation commands (12)
+## 📜 Moderation commands (12)
 ```
 - ,ban [ban someone]
 - ,unban [unban someone]
@@ -59,7 +59,7 @@ Lavalink is not working
 - ,reaction_send_post [send the post]
 ```
 
-### 🎼 Music commands (7)
+## 🎼 Music commands (7)
 ```
 - ,play [play the music]
 - ,pause [pause the music]
@@ -70,7 +70,7 @@ Lavalink is not working
 - ,disconnect [disconnect from the call]
 ```
 
-### 🍒 Fun commands (5)
+## 🍒 Fun commands (5)
 ```
 - ,avatar [get an avatar member]
 - ,ping [see your ping]

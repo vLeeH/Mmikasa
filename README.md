@@ -36,7 +36,6 @@ Lavalink is not working
 ## Commands 
 
 ### Commands found: 27
-### Categories found: 4
 ### 🤔 Help (3)
 ```
 - ,help [see the commands]

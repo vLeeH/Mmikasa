@@ -38,11 +38,14 @@ Lavalink is not working
 ### Commands found: 27
 ### Categories found: 4
 ### 🤔 Help (3)
+```
 - ,help [see the commands]
 - ,helpmod [see the mod commands]
 - ,helpmusic [see the music commands ]
+```
 
 ### 📜 Moderation commands (12)
+```
 - ,ban [ban someone]
 - ,unban [unban someone]
 - ,kick [kick someone]
@@ -55,8 +58,10 @@ Lavalink is not working
 - ,reaction_add_role @Role EMOJI_HERE [add role for post]
 - ,reaction_remove_role @Role [remove the role]
 - ,reaction_send_post [send the post]
+```
 
 ### 🎼 Music commands (7)
+```
 - ,play [play the music]
 - ,pause [pause the music]
 - ,resume [return the music]
@@ -64,13 +69,16 @@ Lavalink is not working
 - ,now_playing [see which music is playing]
 - ,queue [queue]
 - ,disconnect [disconnect from the call]
+```
 
 ### 🍒 Fun commands (5)
+```
 - ,avatar [get an avatar member]
 - ,ping [see your ping]
 - ,data [see the date]
 - ,cookie [just a fun command]
 - ,cat [send random images of cats]
+```
 
 ## Why? 
 I did this project to improve my knownlodge in Python and bot development

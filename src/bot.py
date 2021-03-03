@@ -24,7 +24,7 @@ for filename in os.listdir('./src/cogs'):
         bot.load_extension(f'cogs.{filename[:-3]}')
 
 
-#Post reaction
+# Reaction Posts stuff
 reaction_title = ""
 reactions = {}
 reaction_message_id = ""

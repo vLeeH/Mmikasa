@@ -18,7 +18,7 @@ async def on_ready():
     print(f'{bot.user} has logged in.')
 
 
-# Loading cogs.
+# Loading all cogs
 for filename in os.listdir('./src/cogs'):
     if filename.endswith('.py'):
         bot.load_extension(f'cogs.{filename[:-3]}')

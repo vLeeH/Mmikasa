@@ -1,4 +1,4 @@
-# This is my main Discord Bot V3.0
+# Discord Bot V3.0
 - This is my main Discord Bot with musics commands and moderation commands.<br>
 
 ## Installation

@@ -11,6 +11,7 @@ class Images(commands.Cog):
 
     @commands.command()
     async def cat(self, ctx):
+        """Send random images of cats"""
         async with aiohttp.ClientSession() as cs: 
             async with cs.get("http://aws.random.cat/meow") as r: 
                 data = await r.json()
@@ -24,10 +25,9 @@ class Images(commands.Cog):
                 await msg.add_reaction(emoji)        
 
 
-    # Get a user profile picture - Avatar
     @commands.command(aliases=['Avatar','av'])
     async def avatar(self, ctx, *, member: discord.Member=None): #set the member object to None
-
+        """Get a user profile picture - Avatar"""
         if not member: #if member is no mentioned
             member = ctx.message.author #set member as the author
         

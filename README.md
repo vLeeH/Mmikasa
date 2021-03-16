@@ -5,7 +5,7 @@
 DOWNLOAD **Java 11** - https://jdk.java.net/java-se-ri/11 <br>
 DOWNLOAD **Python 3.8** - https://www.python.org/downloads/
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Compile 

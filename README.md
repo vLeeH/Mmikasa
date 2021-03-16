@@ -5,16 +5,7 @@
 DOWNLOAD **Java 11** - https://jdk.java.net/java-se-ri/11 <br>
 DOWNLOAD **Python 3.8** - https://www.python.org/downloads/
 ```
-pip install discord.py
-```
-```
-py -3.7 -m pip install wavelink
-```
-```
-pip install Lavalink
-```
-```
-pip install aiohttp
+pip install requirements.txt
 ```
 
 ## Compile 

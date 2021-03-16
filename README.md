@@ -1,7 +1,6 @@
 # Discord Bot (V3.0)
 - This is my main Discord Bot with musics commands and moderation commands.<br>
 
-
 ## Installation
 DOWNLOAD **Java 11** - https://jdk.java.net/java-se-ri/11 <br>
 DOWNLOAD **Python 3.8** - https://www.python.org/downloads/

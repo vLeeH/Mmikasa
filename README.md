@@ -1,23 +1,15 @@
-# This is my main Discord Bot - (Mikasa V3.0 - MMikasa) 
+# Discord Bot (V3.0)
 - This is my main Discord Bot with musics commands and moderation commands.<br>
-Source code -> <a href="https://github.com/vLeeH/mmikasa-bot/blob/main/src/bot.py">Bot.py</a> and <a href="https://github.com/vLeeH/mmikasa-bot/blob/main/src/cogs/Music.py">MusicCogs</a>
 
-## Libraries
-DOWNLOAD **Java 11** - https://jdk.java.net/java-se-ri/11
+
+## Installation
+DOWNLOAD **Java 11** - https://jdk.java.net/java-se-ri/11 <br>
+DOWNLOAD **Python 3.8** - https://www.python.org/downloads/
 ```
-pip install discord.py
-```
-```
-py -3.7 -m pip install wavelink
-```
-```
-pip install Lavalink
-```
-```
-pip install aiohttp
+pip install requirements.txt
 ```
 
-## To Compile 
+## Compile 
 Run the Lavalink - 
 ```
 java -jar Lavalink.jar
@@ -26,13 +18,26 @@ To see the bot working -
 ```
 python src/bot.py
 ```
+## Errors 
+If the bot is not working 
+>  create a file `token.txt` and put the discord bot token there.
 
-**Note** need to create a file `token.txt` and put the discord bot token there.
+Lavalink is not working 
+> install Java 11 - https://jdk.java.net/java-se-ri/11 and config the environment variable.
+
 ## Commands 
+Commands of my discord bot.
 
-### Commands found: 27
-- sayhelp [see the commands]
-- ,modhelp [see the mod commands]
+**Commands found: 27**
+## 🤔 Help (3)
+```
+- ,help [see the commands]
+- ,helpmod [see the mod commands]
+- ,helpmusic [see the music commands ]
+```
+
+## 📜 Moderation commands (12)
+```
 - ,ban [ban someone]
 - ,unban [unban someone]
 - ,kick [kick someone]
@@ -45,11 +50,10 @@ python src/bot.py
 - ,reaction_add_role @Role EMOJI_HERE [add role for post]
 - ,reaction_remove_role @Role [remove the role]
 - ,reaction_send_post [send the post]
-- ,avatar [get an avatar member]
-- ,ping [see your ping]
-- ,data [see the date]
-- ,cookie [just a fun command]
-- ,cat [send random images of cats]
+```
+
+## 🎼 Music commands (7)
+```
 - ,play [play the music]
 - ,pause [pause the music]
 - ,resume [return the music]
@@ -57,3 +61,16 @@ python src/bot.py
 - ,now_playing [see which music is playing]
 - ,queue [queue]
 - ,disconnect [disconnect from the call]
+```
+
+## 🍒 Fun commands (5)
+```
+- ,avatar [get an avatar member]
+- ,ping [see your ping]
+- ,data [see the date]
+- ,cookie [just a fun command]
+- ,cat [send random images of cats]
+```
+
+## Why? 
+I did this project to improve my knownlodge in Python and bot development

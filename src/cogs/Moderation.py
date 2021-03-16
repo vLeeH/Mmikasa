@@ -12,11 +12,11 @@ class Moderation(commands.Cog):
     def __init__(self, bot): 
         self.bot = bot 
 
-    
     #helpmod 
     @commands.command(aliases=['Helpmod'])
-    @commands.has_permissions(manage_messages=True)
+    @commands.has_permissions(kick_members=True)
     async def helpmod(self, ctx): 
+        """Help for moderation commands"""
         try:
             embed = discord.Embed(title=':gem: Administration Commands', description='''Hello! Use ,helpmod to know about the commands. Here is the mod commands. \n Commands found: 13 \nCategories found: 1''', colour=discord.Colour(0xc80404))
             embed.add_field(name=":man_police_officer: - Administration commands (13)", value="`,help mod` | `,ban` | `,unban` | `,kick` | `,mute` | `,m_remove` | `,clear` | `autorole` | `,reaction_create_post` | `reaction_set_title` | `reaction_add_role ` | `reaction_remove_role` | `reaction_send_post`", inline=False) #must use name = "" to set a author
@@ -33,6 +33,7 @@ class Moderation(commands.Cog):
     @helpmod.error 
     @commands.has_guild_permissions(manage_roles=True)
     async def helpmod_error(self, ctx, error): 
+        """Help error command"""
         await ctx.send(':no_entry: _Invalid command_. You do not **permission.** to the **mod commands.**')
 
 
